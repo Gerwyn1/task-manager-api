@@ -10,7 +10,7 @@ const TaskSchema = new mongoose.Schema({
 
   completed: {
     type: Boolean,
-    default: false,
+    // default: false, // comment out if want to use PUT request effectively (replace)
   },
 });
 
